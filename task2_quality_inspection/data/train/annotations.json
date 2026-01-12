@@ -1,0 +1,78 @@
+{
+  "images": [
+    {
+      "id": 3,
+      "file_name": "missing_component_003.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 4,
+      "file_name": "discoloration_004.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "id": 2,
+      "file_name": "misalignment_002.jpg",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 3,
+      "category_id": 3,
+      "bbox": [
+        400,
+        200,
+        100,
+        80
+      ],
+      "area": 8000
+    },
+    {
+      "id": 2,
+      "image_id": 4,
+      "category_id": 4,
+      "bbox": [
+        160,
+        110,
+        80,
+        80
+      ],
+      "area": 6400
+    },
+    {
+      "id": 3,
+      "image_id": 2,
+      "category_id": 2,
+      "bbox": [
+        120,
+        120,
+        200,
+        100
+      ],
+      "area": 20000
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "scratch"
+    },
+    {
+      "id": 2,
+      "name": "misalignment"
+    },
+    {
+      "id": 3,
+      "name": "missing_component"
+    },
+    {
+      "id": 4,
+      "name": "discoloration"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "image_path": "samples/defective/misalignment_002.jpg",
+  "image_size": [480, 640],
+  "inference_time_ms": 42.8,
+  "num_defects": 1,
+  "defects": [
+    {
+      "defect_id": 1,
+      "defect_type": "misalignment",
+      "confidence_score": 0.92,
+      "bounding_box": {
+        "x1": 120.0,
+        "y1": 120.0,
+        "x2": 320.0,
+        "y2": 220.0
+      },
+      "center_coordinates": {
+        "x": 220,
+        "y": 170
+      },
+      "severity": {
+        "level": "High",
+        "score": 0.85
+      }
+    }
+  ]
+}
+
+

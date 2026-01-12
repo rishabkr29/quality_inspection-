@@ -1,0 +1,29 @@
+{
+  "image_path": "samples/defective/scratch_001.jpg",
+  "image_size": [480, 640],
+  "inference_time_ms": 45.2,
+  "num_defects": 1,
+  "defects": [
+    {
+      "defect_id": 1,
+      "defect_type": "scratch",
+      "confidence_score": 0.87,
+      "bounding_box": {
+        "x1": 150.0,
+        "y1": 120.0,
+        "x2": 250.0,
+        "y2": 180.0
+      },
+      "center_coordinates": {
+        "x": 200,
+        "y": 150
+      },
+      "severity": {
+        "level": "High",
+        "score": 0.78
+      }
+    }
+  ]
+}
+
+

@@ -1,0 +1,25 @@
+{
+  "total_images_processed": 4,
+  "total_defects_detected": 4,
+  "average_inference_time_ms": 41.95,
+  "defect_type_distribution": {
+    "scratch": 1,
+    "misalignment": 1,
+    "missing_component": 1,
+    "discoloration": 1
+  },
+  "severity_distribution": {
+    "High": 2,
+    "Medium": 2,
+    "Low": 0
+  },
+  "average_confidence_score": 0.855,
+  "results_files": [
+    "results_scratch_001.json",
+    "results_misalignment_002.json",
+    "results_missing_component_003.json",
+    "results_discoloration_004.json"
+  ]
+}
+
+

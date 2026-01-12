@@ -1,0 +1,42 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "scratch_001.jpg",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        150,
+        120,
+        100,
+        60
+      ],
+      "area": 6000
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "scratch"
+    },
+    {
+      "id": 2,
+      "name": "misalignment"
+    },
+    {
+      "id": 3,
+      "name": "missing_component"
+    },
+    {
+      "id": 4,
+      "name": "discoloration"
+    }
+  ]
+}

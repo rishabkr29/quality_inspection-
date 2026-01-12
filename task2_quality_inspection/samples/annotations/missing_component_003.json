@@ -1,0 +1,42 @@
+{
+  "images": [
+    {
+      "id": 3,
+      "file_name": "missing_component_003.jpg",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 3,
+      "category_id": 3,
+      "bbox": [
+        400,
+        200,
+        100,
+        80
+      ],
+      "area": 8000
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "scratch"
+    },
+    {
+      "id": 2,
+      "name": "misalignment"
+    },
+    {
+      "id": 3,
+      "name": "missing_component"
+    },
+    {
+      "id": 4,
+      "name": "discoloration"
+    }
+  ]
+}

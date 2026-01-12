@@ -1,0 +1,29 @@
+{
+  "image_path": "samples/defective/discoloration_004.jpg",
+  "image_size": [480, 640],
+  "inference_time_ms": 41.3,
+  "num_defects": 1,
+  "defects": [
+    {
+      "defect_id": 1,
+      "defect_type": "discoloration",
+      "confidence_score": 0.84,
+      "bounding_box": {
+        "x1": 160.0,
+        "y1": 110.0,
+        "x2": 240.0,
+        "y2": 190.0
+      },
+      "center_coordinates": {
+        "x": 200,
+        "y": 150
+      },
+      "severity": {
+        "level": "Medium",
+        "score": 0.72
+      }
+    }
+  ]
+}
+
+

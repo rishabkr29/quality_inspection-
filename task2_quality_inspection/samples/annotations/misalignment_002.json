@@ -1,0 +1,42 @@
+{
+  "images": [
+    {
+      "id": 2,
+      "file_name": "misalignment_002.jpg",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 2,
+      "category_id": 2,
+      "bbox": [
+        120,
+        120,
+        200,
+        100
+      ],
+      "area": 20000
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "scratch"
+    },
+    {
+      "id": 2,
+      "name": "misalignment"
+    },
+    {
+      "id": 3,
+      "name": "missing_component"
+    },
+    {
+      "id": 4,
+      "name": "discoloration"
+    }
+  ]
+}

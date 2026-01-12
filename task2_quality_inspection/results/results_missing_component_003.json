@@ -1,0 +1,29 @@
+{
+  "image_path": "samples/defective/missing_component_003.jpg",
+  "image_size": [480, 640],
+  "inference_time_ms": 38.5,
+  "num_defects": 1,
+  "defects": [
+    {
+      "defect_id": 1,
+      "defect_type": "missing_component",
+      "confidence_score": 0.79,
+      "bounding_box": {
+        "x1": 400.0,
+        "y1": 200.0,
+        "x2": 500.0,
+        "y2": 280.0
+      },
+      "center_coordinates": {
+        "x": 450,
+        "y": 240
+      },
+      "severity": {
+        "level": "Medium",
+        "score": 0.65
+      }
+    }
+  ]
+}
+
+
